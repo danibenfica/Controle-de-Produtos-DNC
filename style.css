@@ -71,3 +71,46 @@ table td {
 table td img {
     width: 25px;
 }
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 15px;
+    }
+
+    img {
+        margin-bottom: 10px;
+    }
+
+    .card {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .inputPd {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    button {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .conteudo {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
